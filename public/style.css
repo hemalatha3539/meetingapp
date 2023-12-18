@@ -1,0 +1,145 @@
+
+.navbar {
+  margin-bottom: -10px;
+  height: 60px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  padding-bottom: 40px;
+  background: rgb(214, 140, 216);
+  color: black;
+  background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2013/12/21/201482/adbe363627ccb9f8983d105d9883d635.jpg");
+  background: radial-gradient(
+    circle,
+    rgba(214, 140, 216, 1) 2%,
+    rgba(148, 233, 222, 1) 99%
+  );
+}
+.body {
+  margin: 30px auto;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-color: #db7093; */
+  padding: 20px 30px;
+  
+ 
+  /* background-color: darkblue; */
+}
+.t-flex {
+  display: flex;
+  color: white;
+  margin-left: 30px;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.nav-items {
+  display: flex;
+  /* background-color: rgb(59, 114, 35); */
+  margin-right: 60px;
+  align-items: center;
+  margin-top: -15px;
+  
+  color: black;
+}
+ul > li {
+  margin: 20px 50px;
+  cursor: pointer;
+  font-size: 25px;
+  list-style: none;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.homee {
+  list-style: none;
+  margin: 50px;
+  color: white;
+  padding: 7px 15px;
+  font-size: 23px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.homee:focus {
+  background-color: #b8587493;
+  color:white;
+/* padding: 10px; */
+  border-radius: 5px;
+}
+.title {
+  margin-top: -26px;
+}
+.meet-container {
+  margin: 40px auto;
+  padding: 70px 70px;
+  width: 600px;
+  /* border: 2px solid black; */
+  border-radius: 5px;
+  padding: 30px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 15px 15px 30px #dbdbdb, -15px -15px 30px #ffffff;
+}
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  height: 50px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  padding: 7px;
+  border-radius: 5px;
+}
+.inputde{
+  width: 100%;
+  box-sizing: border-box;
+  height: 70px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  padding: 7px;
+  border-radius: 5px;
+}
+.btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bolder;
+  font-size: 15px;
+  background-color: #db7093;
+}
+.alert{
+  color: red;
+}
+.image{
+
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+.card{
+  width: 300px;
+  height: 300px;
+  /* border: 2px solid black; */
+  border-radius: 3px;
+  margin: 15px;
+  margin-top: 30px;
+  border-radius: 13px;
+background: #f1efef;
+box-shadow:  8px 8px 16px #cdcbcb,
+             -8px -8px 16px #ffffff;
+}
+.tt{
+  margin: 4px;
+}
+.heading{
+  align-items: center;
+  text-align: center;
+  color: #90455e;
+}
+.heading-2{
+  color: rgb(8, 8, 63);
+}
