@@ -41,7 +41,7 @@ const [button,setbutton]=useState("Add Meet")
   return (
     <div className="addmeet">
       <div className="meet-container">
-        <h1 className="heading-2">Creat a new meet!!!</h1>
+        <h1 className="heading-2">Create a new meet!!!</h1>
         <input className="input" type="text" placeholder="enter meeting name" ref={title}></input>
         <input className="input" type="text" placeholder="enter image" ref={meet}></input>
         <input className="input" type="datetime-local" ref={date}></input>
