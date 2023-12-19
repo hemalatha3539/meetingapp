@@ -34,7 +34,7 @@ const Allmeets = () => {
   },[])
     return (
       <div>
-        <h1 className="heading">All you meetings here!!</h1>
+        <h1 className="heading">All your meetings here!!</h1>
         <div className="body">
        {
         meeting.map((x)=>{
